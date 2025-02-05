@@ -1,0 +1,49 @@
+#Display Manager (SDDM)
+sddm
+
+#KDE Plasma Desktop Env.
+kde-plasma/plasma-meta
+
+#KDE Plasma Features
+kde-plasma/powerdevil
+kde-plasma/systemsettings
+kde-plasma/kdeplasma-addons
+kde-frameworks/kwallet
+kde-apps/kmail
+kde-apps/kwalletmanager
+kde-plasma/kwallet-pam
+kde-plasma/kdesu-gui
+kde-apps/dolphin
+kde-apps/konsole
+kde-apps/kwrite
+kde-apps/kate
+
+#sys-auth/polkit
+sys-auth/polkit
+
+#Network Manager
+net-misc/networkmanager
+
+#KDE Gear
+kde-apps/kdeaccessibility-meta
+kde-apps/kdeadmin-meta
+kde-apps/kdecore-meta
+kde-apps/kdeedu-meta
+kde-apps/kdegames-meta
+kde-apps/kdegraphics-meta
+kde-apps/kdemultimedia-meta
+kde-apps/kdenetwork-meta
+kde-apps/kdepim-meta
+kde-apps/kdesdk-meta
+kde-apps/kdeutils-meta
+kde-apps/gwenview
+media-sound/elisa
+media-video/vlc
+
+#Full KDE Gear bundle
+kde-apps/kde-apps-meta
+
+#KDE Pim dependencies
+app-antivirus/clamav
+mail-filter/bogofilter
+mail-filter/spamassassin
