@@ -17,6 +17,7 @@ kde-apps/dolphin
 kde-apps/konsole
 kde-apps/kwrite
 kde-apps/kate
+kde-apps/spectacle
 
 #sys-auth/polkit
 sys-auth/polkit
