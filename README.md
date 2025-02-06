@@ -21,11 +21,11 @@ git clone https://github.com/Vitalth137/deploy-gentoo-kde.git
 10. If you want to install minimal:
 11. ./install_kdeplasma_install.sh (If masked accept the unmask and type dispatch-conf and press u)
 
-12. Once finished, type these commands:
-13. vim /etc/conf.d/display-manager
+12. Once finished, type these commands: (Open vim or nano)
+13. vim (or nano) /etc/conf.d/display-manager
 14. DISPLAY-MANAGER="sddm"
-[Alt + Shift + :]
-type wq and press enter
+If using vim: [Alt + Shift + :] then type wq then [Enter]
+If using nano: [Ctrl + O then [Enter] then [Ctrl + X]
 15. Type rc-update add display-manager
 16. It's recommended to reboot the system, type reboot -h
 17. Enjoy your Gentoo build with KDE Plasma! :)
