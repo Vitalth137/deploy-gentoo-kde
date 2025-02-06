@@ -5,7 +5,16 @@ There is also a minimal version if you want, install_kdeplasma_minimal.sh but it
 I also strongly recommend copying/moving my make.conf to /etc/portage/make.conf
 Dependencies.txt and intall_dependencies.sh are from MentalOutlaw
 Check him out!
+You ARE allowed to modify the files.
 
+VERY IMPORTANT NOTE: **MAKE SURE THAT MAKE.CONF MATCHES YOUR HARDWARE.**
+For example:
+MAKEOPTS="-j<your cpu threads> -l<your cpu threads>" (-j12 -l12 in my case)
+VIDEO_CARDS="<your graphics card vendor(s)>" (nvidia intel in my case)
+Make sure the USE variable also matches your hardware.
+More guides in the make.conf file(s).
+
+By the way I tried using the faster_make.conf and it made emerge slower (it would usally make it faster) but if there is anything wrong with it, let me know.
 If there are any bugs, let me know and I'll look into it.
 
 Steps:
